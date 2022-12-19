@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
-    "startDev": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js"
+    "start": "node server.js",
+    "startDev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
